@@ -8,3 +8,5 @@ Original files have been downloaded and unzipped to folder : `data/UCI HAR Datas
 
 ## Codebook
 Information about the datasets is provided in `CodeBook.md`.
+
+## How to run `run_analysis.R`
