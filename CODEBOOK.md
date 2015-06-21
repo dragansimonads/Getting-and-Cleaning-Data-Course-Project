@@ -1,4 +1,4 @@
-<h1>Getting-and-Cleaning-Data-Course-Project : Data Dictionary </h1>
+<h1>Getting-and-Cleaning-Data-Course-Project : Data Dictionary <h1/>
 
 <h2>Original data</2> files could be downloaded from :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
