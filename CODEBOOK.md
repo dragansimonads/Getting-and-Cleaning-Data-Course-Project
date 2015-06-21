@@ -2,7 +2,7 @@
 
 <h2>Original data</h2> The files could be downloaded from :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-<p>
+<p></p><p>
 The features in original database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
 </p><p>
 Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -13,14 +13,14 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 </p>
 <h2>Selected Features</h2>
 The features selected for this database are the averages of the original values, grouped by Activity and Subject, of a subset of the original Human Activity Recognition Using Smartphones Data Set where only mean() and std() was selected. ( read more about original database at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones )
-
+</p><p>
 Columns in the final result : 
-Subject
-Activity
-tBodyAcc-mean-X
-tBodyAcc-mean-Y
-tBodyAcc-mean-Z
-tBodyAcc-std-X
+</p><p>Subject
+</p><p>Activity
+</p><p>tBodyAcc-mean-X
+</p><p>tBodyAcc-mean-Y
+</p><p>tBodyAcc-mean-Z
+</p><p>tBodyAcc-std-X
 tBodyAcc-std-Y
 tBodyAcc-std-Z
 tGravityAcc-mean-X
