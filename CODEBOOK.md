@@ -12,10 +12,10 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 </p><p>
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 </p>
-<h2>Selected Features</h2>
+##Selected Features
 The features selected for this database are the averages of the original values, grouped by Activity and Subject, of a subset of the original Human Activity Recognition Using Smartphones Data Set where only mean() and std() was selected. ( read more about original database at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones )
 </p><p>
-<b>Columns in the final result </b>: 
+####Columns in the final result : 
 </p><p>Subject
 </p><p>Activity
 </p><p>tBodyAcc-mean-X
