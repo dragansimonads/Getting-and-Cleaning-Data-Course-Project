@@ -1,3 +1,21 @@
+
+Getting and Cleaning Course Project - Data Dictionary
+
+Feature Selection
+The features selected for this database are the mean averages of a subset of the original Human Activity Recognition Using Smartphones Dataset Version 1.0.
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The values shown are the averages of the original values and grouped by activity and subjectid.
+
+They are accelerometer and gyroscope 3-axial raw signals. For relevant features, '-xyz' is used to denote 3-axial signals in the X, Y and Z directions. So for 'tbodyacc' there will be three corresponding variables versions one for each axis.
+
+
+
+
+
+
+
 Subject
 Activity
 tBodyAcc-mean-X
