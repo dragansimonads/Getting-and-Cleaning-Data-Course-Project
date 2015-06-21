@@ -2,7 +2,9 @@
 
 ## Dependencies
 The script `run_analysis.R` depends on the libraries `plyr` and `dply`. File sits in working folder.
+Comments were added to the script to make the code reable and easy to follow.
+
 Original files have been downloaded and unzipped to folder : `data/UCI HAR Dataset`. This folder is in `R Studio` working folder.
 
-###test
-#t12
+## Codebook
+Information about the datasets is provided in `CodeBook.md`.
