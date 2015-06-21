@@ -1,6 +1,6 @@
 <b>Getting-and-Cleaning-Data-Course-Project : Data Dictionary </b>
 
-<h2>Original data</h2> files could be downloaded from :
+<h2>Original data</h2> The files could be downloaded from :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The features in original database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
@@ -11,7 +11,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-Selected Features
+<h2>Selected Features</h2>
 The features selected for this database are the averages of the original values, grouped by Activity and Subject, of a subset of the original Human Activity Recognition Using Smartphones Data Set where only mean() and std() was selected. ( read more about original database at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones )
 
 Columns in the final result : 
