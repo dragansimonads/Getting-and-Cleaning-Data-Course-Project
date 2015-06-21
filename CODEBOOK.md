@@ -1,4 +1,4 @@
-<b>Getting-and-Cleaning-Data-Course-Project : Data Dictionary </b>
+#####Getting-and-Cleaning-Data-Course-Project : Data Dictionary 
 
 ##Original data 
 The files could be downloaded from :
