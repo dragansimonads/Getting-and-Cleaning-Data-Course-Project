@@ -77,17 +77,14 @@ data <- cbind(subject,y_activity_labels,x_selected)
 ###################################################################################
 #4.Appropriately labels the data set with descriptive variable names. 
 
-#try to make the column names more readable 
 description <- names(data)
-description <- gsub("-", "", description)
-description <- gsub("Body", "Body ", description)
-description <- gsub("Acc", "Acc ", description)
-description <- gsub("Mag", "Mag ", description)
-description <- gsub("Jerk", "Jerk ", description)
-description <- gsub("Gyro", "Gyro ", description)
-names(data)<- description 
 
+# save the list of all columns in data to server as codebook 
+write.table(description, file = "data/UCI HAR Dataset/codebook.md", append = FALSE, quote = FALSE, sep = "</p><p>, ",
+            eol = "\n", na = "NA", dec = ".", col.names = FALSE, row.names=FALSE, qmethod =  c("escape", "double"),
+            fileEncoding = "" )
 
+description
 ###################################################################################
 ###5.From the data set in step 4, creates a second, independent tidy data set with the average 
 ### of each variable for each activity and each subject.
