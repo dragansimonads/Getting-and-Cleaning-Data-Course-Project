@@ -1,6 +1,6 @@
-Getting-and-Cleaning-Data-Course-Project : Data Dictionary 
+<h1>Getting-and-Cleaning-Data-Course-Project : Data Dictionary </h1>
 
-<b>Original data</b> files could be downloaded from :
+<h2>Original data</2> files could be downloaded from :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The features in original database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
